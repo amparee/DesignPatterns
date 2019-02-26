@@ -1,7 +1,7 @@
-package Composite.commands;
+package Command.commands;
 
-import Composite.entities.Stereo;
-import Composite.interfaces.Command;
+import Command.entities.Stereo;
+import Command.interfaces.Command;
 
 public class StereoOffWithCDCommand implements Command {
 

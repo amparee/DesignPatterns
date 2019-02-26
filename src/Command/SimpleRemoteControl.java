@@ -1,6 +1,6 @@
-package Composite;
+package Command;
 
-import Composite.interfaces.Command;
+import Command.interfaces.Command;
 
 public class SimpleRemoteControl {
 

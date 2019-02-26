@@ -1,9 +1,9 @@
-package Composite;
+package Command;
 
-import Composite.commands.GarageDoorOpenCommand;
-import Composite.commands.LightOnCommand;
-import Composite.entities.Garage;
-import Composite.entities.Light;
+import Command.commands.GarageDoorOpenCommand;
+import Command.commands.LightOnCommand;
+import Command.entities.Garage;
+import Command.entities.Light;
 
 public class RemoteControlTest {
 

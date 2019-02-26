@@ -1,4 +1,4 @@
-package Composite.entities;
+package Command.entities;
 
 public class Stereo {
 

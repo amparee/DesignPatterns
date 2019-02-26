@@ -1,9 +1,9 @@
-package Composite;
+package Command;
 
-import Composite.commands.*;
-import Composite.entities.Garage;
-import Composite.entities.Light;
-import Composite.entities.Stereo;
+import Command.commands.*;
+import Command.entities.Garage;
+import Command.entities.Light;
+import Command.entities.Stereo;
 
 public class RemoteLoader {
 

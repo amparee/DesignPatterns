@@ -1,7 +1,7 @@
-package Composite.commands;
+package Command.commands;
 
-import Composite.entities.Light;
-import Composite.interfaces.Command;
+import Command.entities.Light;
+import Command.interfaces.Command;
 
 public class LightOnCommand implements Command {
 

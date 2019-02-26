@@ -1,4 +1,4 @@
-package Composite.interfaces;
+package Command.interfaces;
 
 public interface Command {
 

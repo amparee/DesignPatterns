@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f196098-e837-40bd-a679-12a94f987ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Template/CaffeineBeverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/Coffe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Template/Tea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Facade/HomeTheaterFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facade/HomeTheaterFacade.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f196098-e837-40bd-a679-12a94f987ae3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,17 +14,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Coffe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,15 +29,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Tea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="24" column="40" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="40" />
               <folding>
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#490#491#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
               </folding>
@@ -58,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Template/CaffeineBeverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="-119">
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#264#265#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
@@ -124,9 +110,9 @@
         <option value="$PROJECT_DIR$/src/Facade/Screen.java" />
         <option value="$PROJECT_DIR$/src/Facade/PopcornPopper.java" />
         <option value="$PROJECT_DIR$/src/Facade/HomeTheaterFacade.java" />
-        <option value="$PROJECT_DIR$/src/Template/Coffe.java" />
-        <option value="$PROJECT_DIR$/src/Template/Tea.java" />
         <option value="$PROJECT_DIR$/src/Template/CaffeineBeverage.java" />
+        <option value="$PROJECT_DIR$/src/Template/Tea.java" />
+        <option value="$PROJECT_DIR$/src/Template/Coffe.java" />
       </list>
     </option>
   </component>
@@ -168,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551213165600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551214205067" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -216,11 +202,11 @@
       </method>
     </configuration>
     <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Composite.RemoteControlTest" />
+      <option name="MAIN_CLASS_NAME" value="Command.RemoteControlTest" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Composite.entities.*" />
+          <option name="PATTERN" value="Command.entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +215,11 @@
       </method>
     </configuration>
     <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Composite.RemoteLoader" />
+      <option name="MAIN_CLASS_NAME" value="Command.RemoteLoader" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Composite.*" />
+          <option name="PATTERN" value="Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -654,32 +640,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Coffe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="40" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
             <element signature="e#490#491#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
           </folding>
@@ -688,8 +666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/CaffeineBeverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="-119">
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#264#265#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />

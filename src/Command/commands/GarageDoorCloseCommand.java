@@ -1,7 +1,7 @@
-package Composite.commands;
+package Command.commands;
 
-import Composite.entities.Garage;
-import Composite.interfaces.Command;
+import Command.entities.Garage;
+import Command.interfaces.Command;
 
 public class GarageDoorCloseCommand implements Command {
 
