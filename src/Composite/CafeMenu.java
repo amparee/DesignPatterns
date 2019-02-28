@@ -3,7 +3,7 @@ package Composite;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-public class CafeMenu implements Menu {
+public class CafeMenu extends Menu {
 
     Hashtable menuItems = new Hashtable();
 
@@ -21,11 +21,11 @@ public class CafeMenu implements Menu {
 
     public void addItem(String name, String description, boolean vegetarian, double price) {
         MenuItem menuItem = new MenuItem(name, description, vegetarian, price);
-        menuItem.put(menuItem.getName(), menuItem);
+        menuItems.put(menuItem.getName(), menuItem);
     }
 
     public Iterator createIterator() {
-        return menuItems.values.iterator();
+        return menuItems.values().iterator();
     }
 
 }

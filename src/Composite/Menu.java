@@ -10,6 +10,8 @@ public class Menu extends MenuComponent {
     String description;
 
 
+    public Menu(){}
+
     public Menu(String name, String description) {
         this.name = name;
         this.description = description;

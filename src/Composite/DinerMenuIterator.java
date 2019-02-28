@@ -3,7 +3,7 @@ package Composite;
 import java.util.Iterator;
 import java.util.function.Consumer;
 
-public class DineMenuIterator implements Iterator {
+public class DinerMenuIterator implements Iterator {
 
     MenuItem[] list;
     int position = 0;
@@ -14,12 +14,18 @@ public class DineMenuIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return false;
+        if (position >= list.length || list[position] == null) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     @Override
     public Object next() {
-        return null;
+        MenuItem menuItem = list[position];
+        position = position + 1;
+        return menuItem;
     }
 
     @Override
